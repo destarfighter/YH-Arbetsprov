@@ -3,17 +3,17 @@
 #include "resource.h"
 
 // Render Window
-#define WINDOW_WIDTH 640
-#define WINDOW_HEIGHT 640
+#define WINDOW_WIDTH 800
+#define WINDOW_HEIGHT 544
 
 // Map-Config
 #define TILESET_TEXTURE_FILE IDB_PNG2
 #define MAP_NAME "maze"
 #define TILESIZE 32
-#define MAP_WIDTH 20
-#define MAP_HEIGHT 20
+#define MAP_WIDTH 25
+#define MAP_HEIGHT 17
 #define MAP_WALLS std::vector<unsigned int> {1}
-#define AMOUNT_OF_WALLS 100
+#define AMOUNT_OF_WALLS 150
 #define TARGET_TILE_INDEX 3
 #define START_TILE_INDEX 0
 #define FLOOR_TILE_INDEX 0
@@ -28,7 +28,7 @@
 #define CHARACTER_SPRITESHEET_FILE IDB_PNG1
 #define AI_CHARACTER_NAME "problemSolver"
 #define CHARACTER_START_X 10
-#define CHARACTER_START_Y 6
+#define CHARACTER_START_Y 5
 #define AI_MOVING_SPEED 50.f
 
 // AI-Character animation states
